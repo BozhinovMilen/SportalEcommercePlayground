@@ -1,0 +1,4 @@
+base\BaseTest.class
+tests\frontend\SearchResultPagePositiveTest.class
+tests\frontend\CheckoutPagePositiveTest.class
+tests\admin\AdminLoginNegativeTest.class
