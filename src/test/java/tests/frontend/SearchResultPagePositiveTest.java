@@ -20,6 +20,6 @@ public class SearchResultPagePositiveTest extends BaseTest {
         List<WebElement> allTheProductsOnTheSearchResultPage =
                 ecommercePlayground().searchResultPage().getAllTheProductTitlesOnTheSearchResultPage();
         allTheProductsOnTheSearchResultPage.forEach(productTitle ->
-                Assertions.assertEquals(productTitle.getText().toLowerCase(), "iPhone".toLowerCase()));
+                Assertions.assertEquals("iPhone".toLowerCase(), productTitle.getText().toLowerCase()));
     }
 }

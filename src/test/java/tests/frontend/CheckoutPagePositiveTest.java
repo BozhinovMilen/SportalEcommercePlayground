@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 
 public class CheckoutPagePositiveTest extends BaseTest {
     @Test
-    @DisplayName("Proceed to 'Checkout page'")
+    @DisplayName("Proceed to 'Checkout' page with the selected product")
     @Tag("Regression")
-    public void addProductInTheCart() {
+    public void proceedToCheckoutPageWithTheSelectedProduct() {
         ecommercePlayground().homePage().goTo();
         ecommercePlayground().topNavigationBar().typeTextInTheSearchInputField("iPhone");
         ecommercePlayground().topNavigationBar().clickOnTheSearchButton();
